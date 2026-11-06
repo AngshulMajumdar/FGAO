@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fgao"
+version = "1.0.0"
+description = "Feedback-Greedy Agentic Orchestration: a training-free numerical controller for RAG and tool-using pipelines"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "Angshul Majumdar", email = "angshul@iiitd.ac.in" }]
+keywords = ["rag", "orchestration", "agents", "retrieval-augmented-generation", "langchain", "langgraph", "llm"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Typing :: Typed",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://angshulmajumdar.github.io/FGAO/"
+Repository = "https://github.com/AngshulMajumdar/FGAO"
+Documentation = "https://github.com/AngshulMajumdar/FGAO/tree/main/docs"
+
+[project.optional-dependencies]
+langchain = ["langchain-core>=0.3"]
+langgraph = ["langgraph>=0.2", "langchain-core>=0.3"]
+huggingface = ["huggingface_hub>=0.24"]
+transformers = ["transformers>=4.40"]
+openai = ["openai>=1.0"]
+anthropic = ["anthropic>=0.30"]
+demo = ["gradio>=4.44", "huggingface_hub>=0.24"]
+server = ["fastapi>=0.110", "uvicorn[standard]>=0.29", "pyyaml>=6", "httpx>=0.27"]
+mcp = ["mcp>=1.0"]
+all = ["langchain-core>=0.3", "langgraph>=0.2", "huggingface_hub>=0.24", "openai>=1.0", "anthropic>=0.30",
+       "fastapi>=0.110", "uvicorn[standard]>=0.29", "pyyaml>=6", "httpx>=0.27", "mcp>=1.0"]
+dev = ["pytest>=7"]
+
+[project.scripts]
+fgao = "fgao.server.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+fgao = ["py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
