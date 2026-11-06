@@ -1,0 +1,3 @@
+{"id": "fgao-1", "title": "FGAO", "text": "FGAO stands for Feedback-Greedy Agentic Orchestration. It is a training-free controller that chooses the next tool call by predicted progress on verifiable goals, net of cost."}
+{"id": "fgao-2", "title": "FGAO", "text": "FGAO abstains when no answer is both grounded in a retrieved passage and accepted by a support check."}
+{"id": "fgao-3", "title": "FGAO", "text": "The FGAO controller learns from the outcomes of its own tool calls during a run, through a prior-and-feedback blend of effect estimates."}

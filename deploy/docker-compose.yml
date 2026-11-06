@@ -1,0 +1,14 @@
+# docker compose -f deploy/docker-compose.yml up --build
+services:
+  fgao:
+    build: ..
+    ports: ["8000:8000"]
+    environment:
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      FGAO_API_KEYS: ${FGAO_API_KEYS:-}
+    volumes:
+      - ./fgao.yaml:/etc/fgao/fgao.yaml:ro
+      - ${FGAO_DATA:-./data}:/data:ro
+    deploy:
+      replicas: 1
+    restart: unless-stopped

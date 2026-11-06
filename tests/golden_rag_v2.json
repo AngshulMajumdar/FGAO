@@ -1,0 +1,7030 @@
+[
+{
+"seed": 0,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)"
+],
+"Q": [
+0.455152
+],
+"cost": 3.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 1
+},
+{
+"seed": 1,
+"answer": "delta vineyard",
+"grounded_answer": "delta vineyard",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875,
+0.21122,
+0.3075
+],
+"cost": 10.5,
+"status": "SUCCESS",
+"llm_calls": 4
+},
+{
+"seed": 2,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb5, graded=True)",
+"answer(src=web, graded=True)"
+],
+"Q": [
+0.51542,
+0.50292,
+0.3723333333,
+0.3598333333
+],
+"cost": 22.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 6
+},
+{
+"seed": 3,
+"answer": "canyon forest",
+"grounded_answer": "canyon forest",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 4,
+"answer": null,
+"grounded_answer": "of Galen estuary",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.4837,
+0.1255
+],
+"cost": 6.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 5,
+"answer": "Norrin",
+"grounded_answer": "Norrin",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 6,
+"answer": "kiln of",
+"grounded_answer": "kiln of",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb10, graded=False)",
+"verify()"
+],
+"Q": [
+0.51542,
+0.50292,
+0.3626883733,
+0.3916666667
+],
+"cost": 14.5,
+"status": "SUCCESS",
+"llm_calls": 4
+},
+{
+"seed": 7,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb10, graded=False)",
+"answer(src=web, graded=True)"
+],
+"Q": [
+0.51542,
+0.50292,
+0.3626883733,
+0.3495493333
+],
+"cost": 20.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 5
+},
+{
+"seed": 8,
+"answer": "Jessamy temple",
+"grounded_answer": "Jessamy temple",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"answer(src=kb5, graded=True)",
+"verify()"
+],
+"Q": [
+0.51542,
+0.3916666667,
+0.2214533333,
+0.4459972222,
+0.3116666667
+],
+"cost": 15.5,
+"status": "SUCCESS",
+"llm_calls": 6
+},
+{
+"seed": 9,
+"answer": "temple of Arvel",
+"grounded_answer": "temple of Arvel",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.48874,
+0.3875
+],
+"cost": 11.0,
+"status": "SUCCESS",
+"llm_calls": 3
+},
+{
+"seed": 10,
+"answer": null,
+"grounded_answer": "volcano",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.4837,
+0.2535
+],
+"cost": 6.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 11,
+"answer": null,
+"grounded_answer": "harbor glacier summit",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"verify()"
+],
+"Q": [
+0.49956,
+0.47456,
+0.3833333333
+],
+"cost": 11.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 3
+},
+{
+"seed": 12,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.50749,
+0.48874,
+0.35474488
+],
+"cost": 12.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 3
+},
+{
+"seed": 13,
+"answer": "quarry volcano sextant",
+"grounded_answer": "quarry volcano sextant",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 14,
+"answer": "of",
+"grounded_answer": "of",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.4837,
+0.375
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 15,
+"answer": "desert prairie",
+"grounded_answer": "desert prairie",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 16,
+"answer": null,
+"grounded_answer": "fjord market. The",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875,
+0.21122,
+0.3075
+],
+"cost": 10.5,
+"status": "STALLED",
+"llm_calls": 4
+},
+{
+"seed": 17,
+"answer": "lathe plateau. The",
+"grounded_answer": "lathe plateau. The",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 18,
+"answer": null,
+"grounded_answer": "temple",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.48874,
+0.3875
+],
+"cost": 11.0,
+"status": "STALLED",
+"llm_calls": 3
+},
+{
+"seed": 19,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"answer(src=kb5, graded=True)"
+],
+"Q": [
+0.50749,
+0.4365625,
+0.15125
+],
+"cost": 16.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 5
+},
+{
+"seed": 20,
+"answer": null,
+"grounded_answer": "temple anvil",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"verify()"
+],
+"Q": [
+0.49956,
+0.3833333333,
+0.2009866667,
+0.3033333333
+],
+"cost": 10.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 4
+},
+{
+"seed": 21,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.4837,
+0.1255
+],
+"cost": 6.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 22,
+"answer": "granary of Norrin",
+"grounded_answer": "granary of Norrin",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.4365625,
+0.3875
+],
+"cost": 13.0,
+"status": "SUCCESS",
+"llm_calls": 4
+},
+{
+"seed": 23,
+"answer": "telescope",
+"grounded_answer": "telescope",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 24,
+"answer": "vineyard. The desert",
+"grounded_answer": "vineyard. The desert",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 25,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)"
+],
+"Q": [
+0.49956,
+0.47456
+],
+"cost": 9.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 26,
+"answer": null,
+"grounded_answer": "lantern river",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"answer(src=rw, graded=False)"
+],
+"Q": [
+0.50749,
+0.3875,
+0.21122,
+0.1661208333
+],
+"cost": 13.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 5
+},
+{
+"seed": 27,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"answer(src=kb5, graded=True)",
+"answer(src=web, graded=True)"
+],
+"Q": [
+0.51542,
+0.3916666667,
+0.2214533333,
+0.4459972222,
+0.4020416667
+],
+"cost": 21.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 7
+},
+{
+"seed": 28,
+"answer": "harbor canyon",
+"grounded_answer": "harbor canyon",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 29,
+"answer": "prairie volcano meadow",
+"grounded_answer": "prairie volcano meadow",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.51542,
+0.3916666667
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 30,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb5, graded=True)"
+],
+"Q": [
+0.50749,
+0.48874,
+0.3605
+],
+"cost": 14.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 4
+},
+{
+"seed": 31,
+"answer": "volcano bridge summit",
+"grounded_answer": "volcano bridge summit",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 32,
+"answer": null,
+"grounded_answer": "sextant of Arvel",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.4837,
+0.375
+],
+"cost": 5.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 33,
+"answer": "lagoon temple",
+"grounded_answer": "lagoon temple",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.455152,
+0.36
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 34,
+"answer": null,
+"grounded_answer": "Corin beacon",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb5, graded=True)",
+"answer(src=web, graded=True)",
+"verify()"
+],
+"Q": [
+0.51542,
+0.50292,
+0.3723333333,
+0.3598333333,
+0.3916666667
+],
+"cost": 24.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 7
+},
+{
+"seed": 35,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"answer(src=kb5, graded=True)"
+],
+"Q": [
+0.50749,
+0.3875,
+0.21122,
+0.4337958333
+],
+"cost": 13.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 5
+},
+{
+"seed": 36,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)"
+],
+"Q": [
+0.49956,
+0.47456
+],
+"cost": 9.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 37,
+"answer": "granary island crater",
+"grounded_answer": "granary island crater",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.51542,
+0.3916666667
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 38,
+"answer": "of Norrin orchard",
+"grounded_answer": "of Norrin orchard",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"answer(src=kb5, graded=True)",
+"verify()"
+],
+"Q": [
+0.51542,
+0.4560416667,
+0.3723333333,
+0.3916666667
+],
+"cost": 18.0,
+"status": "SUCCESS",
+"llm_calls": 6
+},
+{
+"seed": 39,
+"answer": "valley. The river",
+"grounded_answer": "valley. The river",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.455152,
+0.36
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 40,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"answer(src=kb5, graded=True)"
+],
+"Q": [
+0.50749,
+0.4365625,
+0.15125
+],
+"cost": 16.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 5
+},
+{
+"seed": 41,
+"answer": "tower quarry delta",
+"grounded_answer": "tower quarry delta",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.455152,
+0.36
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 42,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"answer(src=kb5, graded=True)"
+],
+"Q": [
+0.50749,
+0.4365625,
+0.15125
+],
+"cost": 16.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 5
+},
+{
+"seed": 43,
+"answer": "of Norrin granary",
+"grounded_answer": "of Norrin granary",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.4837,
+0.375
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 44,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"answer(src=kb5, graded=True)"
+],
+"Q": [
+0.50749,
+0.4365625,
+0.15125
+],
+"cost": 16.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 5
+},
+{
+"seed": 45,
+"answer": null,
+"grounded_answer": "garden beacon. The",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb5, graded=True)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.48874,
+0.3605,
+0.3875
+],
+"cost": 16.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 5
+},
+{
+"seed": 46,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"answer(src=kb5, graded=True)"
+],
+"Q": [
+0.50749,
+0.4365625,
+0.15125
+],
+"cost": 16.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 5
+},
+{
+"seed": 47,
+"answer": "of Maren",
+"grounded_answer": "of Maren",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.48874,
+0.3875
+],
+"cost": 11.0,
+"status": "SUCCESS",
+"llm_calls": 3
+},
+{
+"seed": 48,
+"answer": "forest of Corin",
+"grounded_answer": "forest of Corin",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.4837,
+0.375
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 49,
+"answer": "lagoon glacier temple",
+"grounded_answer": "lagoon glacier temple",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.49956,
+0.3833333333
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 50,
+"answer": "reef. The",
+"grounded_answer": "reef. The",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.51542,
+0.3916666667
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 51,
+"answer": "lantern",
+"grounded_answer": "lantern",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.49956,
+0.3833333333
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 52,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.4837,
+0.2535
+],
+"cost": 6.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 53,
+"answer": null,
+"grounded_answer": "The vineyard",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.4837,
+0.375
+],
+"cost": 5.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 54,
+"answer": "prairie",
+"grounded_answer": "prairie",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.49956,
+0.3833333333
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 55,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.50749,
+0.48874,
+0.35474488
+],
+"cost": 12.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 3
+},
+{
+"seed": 56,
+"answer": null,
+"grounded_answer": "lathe",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.4837,
+0.375
+],
+"cost": 5.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 57,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.4837,
+0.2535
+],
+"cost": 6.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 58,
+"answer": null,
+"grounded_answer": "river",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.48874,
+0.3875
+],
+"cost": 11.0,
+"status": "STALLED",
+"llm_calls": 3
+},
+{
+"seed": 59,
+"answer": "volcano reef",
+"grounded_answer": "volcano reef",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 60,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)"
+],
+"Q": [
+0.455152
+],
+"cost": 3.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 1
+},
+{
+"seed": 61,
+"answer": "of Galen canal",
+"grounded_answer": "of Galen canal",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.4365625,
+0.3875
+],
+"cost": 13.0,
+"status": "SUCCESS",
+"llm_calls": 4
+},
+{
+"seed": 62,
+"answer": null,
+"grounded_answer": "of Jessamy",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb10, graded=False)",
+"verify()",
+"answer(src=rw, graded=False)"
+],
+"Q": [
+0.51542,
+0.50292,
+0.3626883733,
+0.3916666667,
+0.1779472222
+],
+"cost": 19.5,
+"status": "STALLED",
+"llm_calls": 6
+},
+{
+"seed": 63,
+"answer": "mill. The basin",
+"grounded_answer": "mill. The basin",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 64,
+"answer": "valley",
+"grounded_answer": "valley",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.455152,
+0.36
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 65,
+"answer": null,
+"grounded_answer": "of Jessamy bridge",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.4837,
+0.375
+],
+"cost": 5.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 66,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb5, graded=True)"
+],
+"Q": [
+0.50749,
+0.48874,
+0.3605
+],
+"cost": 14.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 4
+},
+{
+"seed": 67,
+"answer": "Ivor foundry",
+"grounded_answer": "Ivor foundry",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 68,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.4837,
+0.2535
+],
+"cost": 6.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 69,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)"
+],
+"Q": [
+0.49956,
+0.47456
+],
+"cost": 9.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 70,
+"answer": null,
+"grounded_answer": "harbor lagoon",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875,
+0.21122,
+0.3075
+],
+"cost": 10.5,
+"status": "STALLED",
+"llm_calls": 4
+},
+{
+"seed": 71,
+"answer": null,
+"grounded_answer": "sextant mill canal",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.48874,
+0.3875
+],
+"cost": 11.0,
+"status": "STALLED",
+"llm_calls": 3
+},
+{
+"seed": 72,
+"answer": "reef",
+"grounded_answer": "reef",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.49956,
+0.3833333333
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 73,
+"answer": "lagoon delta forest",
+"grounded_answer": "lagoon delta forest",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.51542,
+0.3916666667
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 74,
+"answer": "harbor of Lorne",
+"grounded_answer": "harbor of Lorne",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 75,
+"answer": "The delta of",
+"grounded_answer": "The delta of",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"verify()"
+],
+"Q": [
+0.51542,
+0.50292,
+0.3916666667
+],
+"cost": 11.0,
+"status": "SUCCESS",
+"llm_calls": 3
+},
+{
+"seed": 76,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.4837,
+0.2535
+],
+"cost": 6.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 77,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.50749,
+0.48874,
+0.35474488
+],
+"cost": 12.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 3
+},
+{
+"seed": 78,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.4837,
+0.2535
+],
+"cost": 6.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 79,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.50749,
+0.48874,
+0.35474488
+],
+"cost": 12.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 3
+},
+{
+"seed": 80,
+"answer": "of Jessamy basin",
+"grounded_answer": "of Jessamy basin",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.51542,
+0.3916666667
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 81,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.4837,
+0.2535
+],
+"cost": 6.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 82,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.4837,
+0.1255
+],
+"cost": 6.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 83,
+"answer": null,
+"grounded_answer": "market bridge fjord",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.48874,
+0.3875
+],
+"cost": 11.0,
+"status": "STALLED",
+"llm_calls": 3
+},
+{
+"seed": 84,
+"answer": "granary. The volcano",
+"grounded_answer": "granary. The volcano",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 85,
+"answer": null,
+"grounded_answer": "quarry telescope meadow",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.455152,
+0.36
+],
+"cost": 5.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 86,
+"answer": "of Maren",
+"grounded_answer": "of Maren",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.4837,
+0.375
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 87,
+"answer": null,
+"grounded_answer": "forge",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"answer(src=rw, graded=False)"
+],
+"Q": [
+0.50749,
+0.3875,
+0.21122,
+0.1661208333
+],
+"cost": 13.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 5
+},
+{
+"seed": 88,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.50749,
+0.48874,
+0.35474488
+],
+"cost": 12.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 3
+},
+{
+"seed": 89,
+"answer": "volcano",
+"grounded_answer": "volcano",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 90,
+"answer": null,
+"grounded_answer": "reef of Jessamy",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.49956,
+0.3833333333,
+0.2009866667
+],
+"cost": 8.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 3
+},
+{
+"seed": 91,
+"answer": null,
+"grounded_answer": "of",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"verify()",
+"answer(src=rw, graded=False)",
+"verify()",
+"answer(src=kb5, graded=True)"
+],
+"Q": [
+0.51542,
+0.3916666667,
+0.2214533333,
+0.3116666667,
+0.1830972222,
+0.2583333333,
+0.1568112245
+],
+"cost": 22.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 9
+},
+{
+"seed": 92,
+"answer": "quarry anvil",
+"grounded_answer": "quarry anvil",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 93,
+"answer": null,
+"grounded_answer": "lagoon of Arvel",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"answer(src=rw, graded=False)"
+],
+"Q": [
+0.50749,
+0.3875,
+0.21122,
+0.1661208333
+],
+"cost": 13.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 5
+},
+{
+"seed": 94,
+"answer": "The plateau",
+"grounded_answer": "The plateau",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.455152,
+0.36
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 95,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.50749,
+0.48874,
+0.35474488
+],
+"cost": 12.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 3
+},
+{
+"seed": 96,
+"answer": "tower anvil",
+"grounded_answer": "tower anvil",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.48874,
+0.3875
+],
+"cost": 11.0,
+"status": "SUCCESS",
+"llm_calls": 3
+},
+{
+"seed": 97,
+"answer": null,
+"grounded_answer": "market telescope anvil",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb10, graded=False)",
+"answer(src=web, graded=True)",
+"verify()"
+],
+"Q": [
+0.51542,
+0.50292,
+0.3626883733,
+0.3495493333,
+0.3916666667
+],
+"cost": 22.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 6
+},
+{
+"seed": 98,
+"answer": null,
+"grounded_answer": "forge cliff. The",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"answer(src=rw, graded=False)"
+],
+"Q": [
+0.50749,
+0.3875,
+0.21122,
+0.1661208333
+],
+"cost": 13.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 5
+},
+{
+"seed": 99,
+"answer": "Maren plateau kiln",
+"grounded_answer": "Maren plateau kiln",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.49956,
+0.3833333333
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 100,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"answer(src=kb5, graded=True)"
+],
+"Q": [
+0.50749,
+0.4365625,
+0.15125
+],
+"cost": 16.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 5
+},
+{
+"seed": 101,
+"answer": "of Kestrel",
+"grounded_answer": "of Kestrel",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.48874,
+0.3875
+],
+"cost": 11.0,
+"status": "SUCCESS",
+"llm_calls": 3
+},
+{
+"seed": 102,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.4837,
+0.2535
+],
+"cost": 6.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 103,
+"answer": null,
+"grounded_answer": "basin volcano glacier",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.48874,
+0.3875
+],
+"cost": 11.0,
+"status": "STALLED",
+"llm_calls": 3
+},
+{
+"seed": 104,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb10, graded=False)",
+"answer(src=web, graded=True)"
+],
+"Q": [
+0.51542,
+0.50292,
+0.3626883733,
+0.3495493333
+],
+"cost": 20.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 5
+},
+{
+"seed": 105,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.4837,
+0.2535
+],
+"cost": 6.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 106,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.49956,
+0.3833333333,
+0.2009866667
+],
+"cost": 8.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 3
+},
+{
+"seed": 107,
+"answer": null,
+"grounded_answer": "garden fjord",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.455152,
+0.36
+],
+"cost": 5.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 108,
+"answer": null,
+"grounded_answer": "estuary. The valley",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"answer(src=kb5, graded=True)"
+],
+"Q": [
+0.50749,
+0.4365625,
+0.15125
+],
+"cost": 16.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 5
+},
+{
+"seed": 109,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"answer(src=kb5, graded=True)",
+"answer(src=kb10, graded=True)"
+],
+"Q": [
+0.51542,
+0.4560416667,
+0.3723333333,
+0.3054166667
+],
+"cost": 21.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 7
+},
+{
+"seed": 110,
+"answer": "lagoon. The compass",
+"grounded_answer": "lagoon. The compass",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 111,
+"answer": null,
+"grounded_answer": "desert",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.4837,
+0.2535
+],
+"cost": 6.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 112,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.4837,
+0.2535
+],
+"cost": 6.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 113,
+"answer": "desert",
+"grounded_answer": "desert",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"verify()"
+],
+"Q": [
+0.51542,
+0.4560416667,
+0.3916666667
+],
+"cost": 13.0,
+"status": "SUCCESS",
+"llm_calls": 4
+},
+{
+"seed": 114,
+"answer": null,
+"grounded_answer": "Kestrel canyon",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.4365625,
+0.3875
+],
+"cost": 13.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 4
+},
+{
+"seed": 115,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)"
+],
+"Q": [
+0.455152
+],
+"cost": 3.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 1
+},
+{
+"seed": 116,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.4837,
+0.2535
+],
+"cost": 6.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 117,
+"answer": null,
+"grounded_answer": "Arvel lagoon forge",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"answer(src=web, graded=False)",
+"verify()",
+"answer(src=rw, graded=False)",
+"verify()"
+],
+"Q": [
+0.51542,
+0.3916666667,
+0.2214533333,
+0.1994,
+0.3116666667,
+0.1443472222,
+0.2583333333
+],
+"cost": 23.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 8
+},
+{
+"seed": 118,
+"answer": "sextant orchard volcano",
+"grounded_answer": "sextant orchard volcano",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 119,
+"answer": "forge compass granary",
+"grounded_answer": "forge compass granary",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.48874,
+0.3875
+],
+"cost": 11.0,
+"status": "SUCCESS",
+"llm_calls": 3
+},
+{
+"seed": 120,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)"
+],
+"Q": [
+0.455152
+],
+"cost": 3.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 1
+},
+{
+"seed": 121,
+"answer": "anvil of Corin",
+"grounded_answer": "anvil of Corin",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 122,
+"answer": "basin lagoon crater",
+"grounded_answer": "basin lagoon crater",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.51542,
+0.3916666667
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 123,
+"answer": null,
+"grounded_answer": "Dalen loom",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"answer(src=rw, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875,
+0.21122,
+0.1661208333,
+0.3075
+],
+"cost": 15.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 6
+},
+{
+"seed": 124,
+"answer": null,
+"grounded_answer": "harbor forest",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875,
+0.21122,
+0.3075
+],
+"cost": 10.5,
+"status": "STALLED",
+"llm_calls": 4
+},
+{
+"seed": 125,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb10, graded=False)",
+"answer(src=web, graded=True)"
+],
+"Q": [
+0.51542,
+0.50292,
+0.3626883733,
+0.3495493333
+],
+"cost": 20.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 5
+},
+{
+"seed": 126,
+"answer": "The prairie",
+"grounded_answer": "The prairie",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.4837,
+0.375
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 127,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"answer(src=kb5, graded=True)"
+],
+"Q": [
+0.51542,
+0.4560416667,
+0.3916666667,
+0.2214533333,
+0.3298972222
+],
+"cost": 21.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 7
+},
+{
+"seed": 128,
+"answer": "summit chisel sextant",
+"grounded_answer": "summit chisel sextant",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.4837,
+0.375
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 129,
+"answer": "of Jessamy river",
+"grounded_answer": "of Jessamy river",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 130,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"answer(src=kb5, graded=True)"
+],
+"Q": [
+0.50749,
+0.4365625,
+0.15125
+],
+"cost": 16.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 5
+},
+{
+"seed": 131,
+"answer": "mill",
+"grounded_answer": "mill",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 132,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"answer(src=kb5, graded=True)",
+"answer(src=kb10, graded=True)"
+],
+"Q": [
+0.51542,
+0.4560416667,
+0.3723333333,
+0.3054166667
+],
+"cost": 21.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 7
+},
+{
+"seed": 133,
+"answer": "Dalen orchard plateau",
+"grounded_answer": "Dalen orchard plateau",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"verify()"
+],
+"Q": [
+0.49956,
+0.47456,
+0.3833333333
+],
+"cost": 11.0,
+"status": "SUCCESS",
+"llm_calls": 3
+},
+{
+"seed": 134,
+"answer": "kiln",
+"grounded_answer": "kiln",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 135,
+"answer": "The sextant of",
+"grounded_answer": "The sextant of",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.455152,
+0.36
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 136,
+"answer": "valley compass",
+"grounded_answer": "valley compass",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.49956,
+0.3833333333
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 137,
+"answer": "Esker",
+"grounded_answer": "Esker",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.51542,
+0.3916666667
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 138,
+"answer": null,
+"grounded_answer": "vineyard",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.4365625,
+0.3875
+],
+"cost": 13.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 4
+},
+{
+"seed": 139,
+"answer": "of Dalen kiln",
+"grounded_answer": "of Dalen kiln",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"answer(src=kb5, graded=True)",
+"verify()"
+],
+"Q": [
+0.51542,
+0.3916666667,
+0.2214533333,
+0.4459972222,
+0.3116666667
+],
+"cost": 15.5,
+"status": "SUCCESS",
+"llm_calls": 6
+},
+{
+"seed": 140,
+"answer": "Ivor",
+"grounded_answer": "Ivor",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875,
+0.21122,
+0.3075
+],
+"cost": 10.5,
+"status": "SUCCESS",
+"llm_calls": 4
+},
+{
+"seed": 141,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.50749,
+0.48874,
+0.35474488
+],
+"cost": 12.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 3
+},
+{
+"seed": 142,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)"
+],
+"Q": [
+0.455152
+],
+"cost": 3.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 1
+},
+{
+"seed": 143,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.4837,
+0.1255
+],
+"cost": 6.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 144,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.50749,
+0.48874,
+0.35474488
+],
+"cost": 12.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 3
+},
+{
+"seed": 145,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb5, graded=True)",
+"answer(src=web, graded=True)"
+],
+"Q": [
+0.51542,
+0.50292,
+0.3723333333,
+0.3598333333
+],
+"cost": 22.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 6
+},
+{
+"seed": 146,
+"answer": null,
+"grounded_answer": "of Hollis lathe",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.4837,
+0.375
+],
+"cost": 5.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 147,
+"answer": null,
+"grounded_answer": "plateau. The basin",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.4837,
+0.1255
+],
+"cost": 6.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 148,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.50749,
+0.48874,
+0.35474488
+],
+"cost": 12.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 3
+},
+{
+"seed": 149,
+"answer": "bridge prairie telescope",
+"grounded_answer": "bridge prairie telescope",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 150,
+"answer": "cliff summit",
+"grounded_answer": "cliff summit",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.51542,
+0.3916666667
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 151,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.50749,
+0.48874,
+0.35474488
+],
+"cost": 12.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 3
+},
+{
+"seed": 152,
+"answer": "meadow fjord",
+"grounded_answer": "meadow fjord",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb10, graded=False)",
+"answer(src=web, graded=True)",
+"verify()"
+],
+"Q": [
+0.51542,
+0.50292,
+0.3626883733,
+0.3495493333,
+0.3916666667
+],
+"cost": 22.5,
+"status": "SUCCESS",
+"llm_calls": 6
+},
+{
+"seed": 153,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"answer(src=kb5, graded=True)"
+],
+"Q": [
+0.50749,
+0.4365625,
+0.15125
+],
+"cost": 16.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 5
+},
+{
+"seed": 154,
+"answer": null,
+"grounded_answer": "of Arvel foundry",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb10, graded=False)",
+"answer(src=web, graded=True)",
+"verify()"
+],
+"Q": [
+0.51542,
+0.50292,
+0.3626883733,
+0.3495493333,
+0.3916666667
+],
+"cost": 22.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 6
+},
+{
+"seed": 155,
+"answer": "plateau",
+"grounded_answer": "plateau",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.4365625,
+0.3875
+],
+"cost": 13.0,
+"status": "SUCCESS",
+"llm_calls": 4
+},
+{
+"seed": 156,
+"answer": null,
+"grounded_answer": "Hollis garden meadow",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.4365625,
+0.3875
+],
+"cost": 13.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 4
+},
+{
+"seed": 157,
+"answer": null,
+"grounded_answer": "sextant. The",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.4837,
+0.375
+],
+"cost": 5.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 158,
+"answer": null,
+"grounded_answer": "temple",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"answer(src=rw, graded=False)"
+],
+"Q": [
+0.50749,
+0.3875,
+0.21122,
+0.1661208333
+],
+"cost": 13.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 5
+},
+{
+"seed": 159,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.4837,
+0.2535
+],
+"cost": 6.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 160,
+"answer": null,
+"grounded_answer": "lagoon forest quarry",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.48874,
+0.3875
+],
+"cost": 11.0,
+"status": "STALLED",
+"llm_calls": 3
+},
+{
+"seed": 161,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"answer(src=kb5, graded=True)"
+],
+"Q": [
+0.50749,
+0.4365625,
+0.15125
+],
+"cost": 16.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 5
+},
+{
+"seed": 162,
+"answer": "lathe",
+"grounded_answer": "lathe",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.4837,
+0.375
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 163,
+"answer": null,
+"grounded_answer": "volcano. The",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875,
+0.21122,
+0.3075
+],
+"cost": 10.5,
+"status": "STALLED",
+"llm_calls": 4
+},
+{
+"seed": 164,
+"answer": "foundry of Maren",
+"grounded_answer": "foundry of Maren",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.4837,
+0.375
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 165,
+"answer": "temple",
+"grounded_answer": "temple",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"verify()"
+],
+"Q": [
+0.51542,
+0.4560416667,
+0.3916666667
+],
+"cost": 13.0,
+"status": "SUCCESS",
+"llm_calls": 4
+},
+{
+"seed": 166,
+"answer": null,
+"grounded_answer": "desert of",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"answer(src=kb5, graded=True)",
+"verify()",
+"answer(src=web, graded=False)",
+"verify()"
+],
+"Q": [
+0.51542,
+0.3916666667,
+0.2214533333,
+0.4459972222,
+0.3116666667,
+0.161,
+0.2583333333
+],
+"cost": 23.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 8
+},
+{
+"seed": 167,
+"answer": "of Fenwick",
+"grounded_answer": "of Fenwick",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.4837,
+0.375
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 168,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"answer(src=kb5, graded=True)"
+],
+"Q": [
+0.50749,
+0.4365625,
+0.15125
+],
+"cost": 16.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 5
+},
+{
+"seed": 169,
+"answer": "castle lantern",
+"grounded_answer": "castle lantern",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 170,
+"answer": "The compass",
+"grounded_answer": "The compass",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.4365625,
+0.3875
+],
+"cost": 13.0,
+"status": "SUCCESS",
+"llm_calls": 4
+},
+{
+"seed": 171,
+"answer": null,
+"grounded_answer": "delta forge",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.4365625,
+0.3875
+],
+"cost": 13.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 4
+},
+{
+"seed": 172,
+"answer": null,
+"grounded_answer": "Arvel forge",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.4837,
+0.1255
+],
+"cost": 6.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 173,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"answer(src=kb5, graded=True)"
+],
+"Q": [
+0.50749,
+0.4365625,
+0.15125
+],
+"cost": 16.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 5
+},
+{
+"seed": 174,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)"
+],
+"Q": [
+0.49956,
+0.47456
+],
+"cost": 9.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 175,
+"answer": "canyon of",
+"grounded_answer": "canyon of",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"verify()"
+],
+"Q": [
+0.49956,
+0.47456,
+0.3833333333
+],
+"cost": 11.0,
+"status": "SUCCESS",
+"llm_calls": 3
+},
+{
+"seed": 176,
+"answer": null,
+"grounded_answer": "prairie of Dalen",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.4837,
+0.375
+],
+"cost": 5.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 177,
+"answer": null,
+"grounded_answer": "of",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.48874,
+0.3875
+],
+"cost": 11.0,
+"status": "STALLED",
+"llm_calls": 3
+},
+{
+"seed": 178,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)"
+],
+"Q": [
+0.49956,
+0.4015
+],
+"cost": 9.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 179,
+"answer": null,
+"grounded_answer": "Maren delta kiln",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"answer(src=kb5, graded=True)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"verify()"
+],
+"Q": [
+0.51542,
+0.4560416667,
+0.3723333333,
+0.3916666667,
+0.2203422222,
+0.3116666667
+],
+"cost": 23.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 8
+},
+{
+"seed": 180,
+"answer": null,
+"grounded_answer": "meadow",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"verify()"
+],
+"Q": [
+0.49956,
+0.4015,
+0.3833333333
+],
+"cost": 11.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 3
+},
+{
+"seed": 181,
+"answer": "volcano estuary",
+"grounded_answer": "volcano estuary",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 182,
+"answer": null,
+"grounded_answer": "mill telescope",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"answer(src=rw, graded=False)"
+],
+"Q": [
+0.50749,
+0.3875,
+0.21122,
+0.1661208333
+],
+"cost": 13.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 5
+},
+{
+"seed": 183,
+"answer": "forge desert",
+"grounded_answer": "forge desert",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.51542,
+0.3916666667
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 184,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.50749,
+0.48874,
+0.35474488
+],
+"cost": 12.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 3
+},
+{
+"seed": 185,
+"answer": "kiln quarry",
+"grounded_answer": "kiln quarry",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 186,
+"answer": null,
+"grounded_answer": "anvil lantern",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.4837,
+0.375
+],
+"cost": 5.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 187,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)"
+],
+"Q": [
+0.49956,
+0.4015
+],
+"cost": 9.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 188,
+"answer": null,
+"grounded_answer": "market desert reef",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.455152,
+0.36
+],
+"cost": 5.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 189,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)"
+],
+"Q": [
+0.455152
+],
+"cost": 3.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 1
+},
+{
+"seed": 190,
+"answer": "crater of Corin",
+"grounded_answer": "crater of Corin",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.49956,
+0.3833333333
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 191,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"answer(src=kb5, graded=True)"
+],
+"Q": [
+0.50749,
+0.4365625,
+0.15125
+],
+"cost": 16.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 5
+},
+{
+"seed": 192,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)"
+],
+"Q": [
+0.455152
+],
+"cost": 3.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 1
+},
+{
+"seed": 193,
+"answer": null,
+"grounded_answer": "Norrin market glacier",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.48874,
+0.3875
+],
+"cost": 11.0,
+"status": "STALLED",
+"llm_calls": 3
+},
+{
+"seed": 194,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)"
+],
+"Q": [
+0.455152
+],
+"cost": 3.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 1
+},
+{
+"seed": 195,
+"answer": "garden. The",
+"grounded_answer": "garden. The",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.49956,
+0.3833333333
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 196,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.50749,
+0.48874,
+0.35474488
+],
+"cost": 12.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 3
+},
+{
+"seed": 197,
+"answer": null,
+"grounded_answer": "lantern",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb5, graded=True)",
+"answer(src=web, graded=True)",
+"verify()"
+],
+"Q": [
+0.51542,
+0.50292,
+0.3723333333,
+0.3598333333,
+0.3916666667
+],
+"cost": 24.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 7
+},
+{
+"seed": 198,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)"
+],
+"Q": [
+0.49956,
+0.47456
+],
+"cost": 9.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 199,
+"answer": "castle. The",
+"grounded_answer": "castle. The",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 200,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)"
+],
+"Q": [
+0.455152
+],
+"cost": 3.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 1
+},
+{
+"seed": 201,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb10, graded=False)",
+"answer(src=web, graded=True)"
+],
+"Q": [
+0.51542,
+0.50292,
+0.3626883733,
+0.3495493333
+],
+"cost": 20.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 5
+},
+{
+"seed": 202,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"answer(src=kb5, graded=True)"
+],
+"Q": [
+0.50749,
+0.4365625,
+0.15125
+],
+"cost": 16.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 5
+},
+{
+"seed": 203,
+"answer": "summit",
+"grounded_answer": "summit",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.4837,
+0.375
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 204,
+"answer": "anvil sextant",
+"grounded_answer": "anvil sextant",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.4837,
+0.375
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 205,
+"answer": "temple anvil",
+"grounded_answer": "temple anvil",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875,
+0.21122,
+0.3075
+],
+"cost": 10.5,
+"status": "SUCCESS",
+"llm_calls": 4
+},
+{
+"seed": 206,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.50749,
+0.48874,
+0.35474488
+],
+"cost": 12.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 3
+},
+{
+"seed": 207,
+"answer": "river",
+"grounded_answer": "river",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"answer(src=web, graded=False)",
+"verify()"
+],
+"Q": [
+0.51542,
+0.3916666667,
+0.2214533333,
+0.1994,
+0.3116666667
+],
+"cost": 16.5,
+"status": "SUCCESS",
+"llm_calls": 5
+},
+{
+"seed": 208,
+"answer": null,
+"grounded_answer": "prairie of Arvel",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb10, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.48874,
+0.35474488,
+0.3875
+],
+"cost": 14.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 4
+},
+{
+"seed": 209,
+"answer": "forest summit",
+"grounded_answer": "forest summit",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"verify()"
+],
+"Q": [
+0.49956,
+0.3833333333,
+0.2009866667,
+0.3033333333
+],
+"cost": 10.5,
+"status": "SUCCESS",
+"llm_calls": 4
+},
+{
+"seed": 210,
+"answer": "of",
+"grounded_answer": "of",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 211,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.4837,
+0.1255
+],
+"cost": 6.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 212,
+"answer": null,
+"grounded_answer": "castle summit lagoon",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb10, graded=False)",
+"verify()",
+"answer(src=rw, graded=False)"
+],
+"Q": [
+0.51542,
+0.50292,
+0.3626883733,
+0.3916666667,
+0.1779472222
+],
+"cost": 19.5,
+"status": "STALLED",
+"llm_calls": 6
+},
+{
+"seed": 213,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb5, graded=True)"
+],
+"Q": [
+0.50749,
+0.48874,
+0.3605
+],
+"cost": 14.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 4
+},
+{
+"seed": 214,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)"
+],
+"Q": [
+0.455152
+],
+"cost": 3.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 1
+},
+{
+"seed": 215,
+"answer": "forest sextant delta",
+"grounded_answer": "forest sextant delta",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 216,
+"answer": null,
+"grounded_answer": "desert",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.455152,
+0.36
+],
+"cost": 5.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 217,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb5, graded=True)",
+"answer(src=web, graded=True)"
+],
+"Q": [
+0.51542,
+0.50292,
+0.3723333333,
+0.3598333333
+],
+"cost": 22.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 6
+},
+{
+"seed": 218,
+"answer": "The compass",
+"grounded_answer": "The compass",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"answer(src=web, graded=False)",
+"verify()"
+],
+"Q": [
+0.51542,
+0.3916666667,
+0.2214533333,
+0.1994,
+0.3116666667
+],
+"cost": 16.5,
+"status": "SUCCESS",
+"llm_calls": 5
+},
+{
+"seed": 219,
+"answer": null,
+"grounded_answer": "of",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875,
+0.21122,
+0.3075
+],
+"cost": 10.5,
+"status": "STALLED",
+"llm_calls": 4
+},
+{
+"seed": 220,
+"answer": "of Dalen",
+"grounded_answer": "of Dalen",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.49956,
+0.3833333333
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 221,
+"answer": "fjord sextant desert",
+"grounded_answer": "fjord sextant desert",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"verify()"
+],
+"Q": [
+0.49956,
+0.4015,
+0.3833333333
+],
+"cost": 11.0,
+"status": "SUCCESS",
+"llm_calls": 3
+},
+{
+"seed": 222,
+"answer": "The river",
+"grounded_answer": "The river",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"verify()"
+],
+"Q": [
+0.49956,
+0.47456,
+0.3833333333
+],
+"cost": 11.0,
+"status": "SUCCESS",
+"llm_calls": 3
+},
+{
+"seed": 223,
+"answer": null,
+"grounded_answer": "granary of",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"answer(src=rw, graded=False)"
+],
+"Q": [
+0.50749,
+0.3875,
+0.21122,
+0.1661208333
+],
+"cost": 13.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 5
+},
+{
+"seed": 224,
+"answer": null,
+"grounded_answer": "cliff tower",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.48874,
+0.3875
+],
+"cost": 11.0,
+"status": "STALLED",
+"llm_calls": 3
+},
+{
+"seed": 225,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"answer(src=kb5, graded=True)"
+],
+"Q": [
+0.50749,
+0.4365625,
+0.15125
+],
+"cost": 16.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 5
+},
+{
+"seed": 226,
+"answer": "prairie",
+"grounded_answer": "prairie",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"verify()"
+],
+"Q": [
+0.51542,
+0.3916666667,
+0.2214533333,
+0.3116666667
+],
+"cost": 10.5,
+"status": "SUCCESS",
+"llm_calls": 4
+},
+{
+"seed": 227,
+"answer": "valley lathe orchard",
+"grounded_answer": "valley lathe orchard",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875,
+0.21122,
+0.3075
+],
+"cost": 10.5,
+"status": "SUCCESS",
+"llm_calls": 4
+},
+{
+"seed": 228,
+"answer": "The volcano",
+"grounded_answer": "The volcano",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"verify()"
+],
+"Q": [
+0.51542,
+0.3916666667,
+0.2214533333,
+0.3116666667
+],
+"cost": 10.5,
+"status": "SUCCESS",
+"llm_calls": 4
+},
+{
+"seed": 229,
+"answer": "Lorne",
+"grounded_answer": "Lorne",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.455152,
+0.36
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 230,
+"answer": "temple lathe",
+"grounded_answer": "temple lathe",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"answer(src=rw, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875,
+0.21122,
+0.1661208333,
+0.3075
+],
+"cost": 15.5,
+"status": "SUCCESS",
+"llm_calls": 6
+},
+{
+"seed": 231,
+"answer": "crater sextant",
+"grounded_answer": "crater sextant",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 232,
+"answer": "lantern desert river",
+"grounded_answer": "lantern desert river",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.49956,
+0.3833333333
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 233,
+"answer": "Lorne",
+"grounded_answer": "Lorne",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.51542,
+0.3916666667
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 234,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.50749,
+0.48874,
+0.35474488
+],
+"cost": 12.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 3
+},
+{
+"seed": 235,
+"answer": "lantern",
+"grounded_answer": "lantern",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb10, graded=False)",
+"verify()"
+],
+"Q": [
+0.51542,
+0.50292,
+0.3626883733,
+0.3916666667
+],
+"cost": 14.5,
+"status": "SUCCESS",
+"llm_calls": 4
+},
+{
+"seed": 236,
+"answer": "granary lantern",
+"grounded_answer": "granary lantern",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.4837,
+0.375
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 237,
+"answer": null,
+"grounded_answer": "lathe meadow beacon",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.455152,
+0.36
+],
+"cost": 5.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 238,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)"
+],
+"Q": [
+0.49956,
+0.47456
+],
+"cost": 9.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 239,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)"
+],
+"Q": [
+0.455152
+],
+"cost": 3.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 1
+},
+{
+"seed": 240,
+"answer": "Norrin",
+"grounded_answer": "Norrin",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.455152,
+0.36
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 241,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)"
+],
+"Q": [
+0.455152
+],
+"cost": 3.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 1
+},
+{
+"seed": 242,
+"answer": "of",
+"grounded_answer": "of",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875,
+0.21122,
+0.3075
+],
+"cost": 10.5,
+"status": "SUCCESS",
+"llm_calls": 4
+},
+{
+"seed": 243,
+"answer": "delta fjord",
+"grounded_answer": "delta fjord",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb10, graded=False)",
+"verify()"
+],
+"Q": [
+0.51542,
+0.50292,
+0.3626883733,
+0.3916666667
+],
+"cost": 14.5,
+"status": "SUCCESS",
+"llm_calls": 4
+},
+{
+"seed": 244,
+"answer": null,
+"grounded_answer": "The volcano",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.4365625,
+0.3875
+],
+"cost": 13.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 4
+},
+{
+"seed": 245,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb5, graded=True)"
+],
+"Q": [
+0.50749,
+0.48874,
+0.3605
+],
+"cost": 14.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 4
+},
+{
+"seed": 246,
+"answer": null,
+"grounded_answer": "delta of",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"verify()"
+],
+"Q": [
+0.49956,
+0.47456,
+0.3833333333
+],
+"cost": 11.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 3
+},
+{
+"seed": 247,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"answer(src=kb5, graded=True)"
+],
+"Q": [
+0.50749,
+0.4365625,
+0.15125
+],
+"cost": 16.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 5
+},
+{
+"seed": 248,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"answer(src=kb5, graded=True)"
+],
+"Q": [
+0.50749,
+0.4365625,
+0.15125
+],
+"cost": 16.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 5
+},
+{
+"seed": 249,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)"
+],
+"Q": [
+0.455152
+],
+"cost": 3.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 1
+},
+{
+"seed": 250,
+"answer": null,
+"grounded_answer": "meadow of",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"verify()",
+"answer(src=rw, graded=False)",
+"verify()",
+"answer(src=kb5, graded=True)"
+],
+"Q": [
+0.51542,
+0.3916666667,
+0.2214533333,
+0.3116666667,
+0.1830972222,
+0.2583333333,
+0.1568112245
+],
+"cost": 22.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 9
+},
+{
+"seed": 251,
+"answer": "market orchard delta",
+"grounded_answer": "market orchard delta",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.4837,
+0.375
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 252,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)"
+],
+"Q": [
+0.455152
+],
+"cost": 3.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 1
+},
+{
+"seed": 253,
+"answer": null,
+"grounded_answer": "kiln sextant prairie",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb10, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.48874,
+0.35474488,
+0.3875
+],
+"cost": 14.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 4
+},
+{
+"seed": 254,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.50749,
+0.48874,
+0.35474488
+],
+"cost": 12.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 3
+},
+{
+"seed": 255,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb5, graded=True)",
+"answer(src=web, graded=True)"
+],
+"Q": [
+0.51542,
+0.50292,
+0.3723333333,
+0.3598333333
+],
+"cost": 22.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 6
+},
+{
+"seed": 256,
+"answer": "of Kestrel orchard",
+"grounded_answer": "of Kestrel orchard",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 257,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)"
+],
+"Q": [
+0.455152
+],
+"cost": 3.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 1
+},
+{
+"seed": 258,
+"answer": "Ivor temple anvil",
+"grounded_answer": "Ivor temple anvil",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.49956,
+0.3833333333
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 259,
+"answer": null,
+"grounded_answer": "anvil of Maren",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.49956,
+0.3833333333,
+0.2009866667
+],
+"cost": 8.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 3
+},
+{
+"seed": 260,
+"answer": null,
+"grounded_answer": "reef of Fenwick",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"verify()"
+],
+"Q": [
+0.49956,
+0.3833333333,
+0.2009866667,
+0.3033333333
+],
+"cost": 10.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 4
+},
+{
+"seed": 261,
+"answer": "market",
+"grounded_answer": "market",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.455152,
+0.36
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 262,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)"
+],
+"Q": [
+0.455152
+],
+"cost": 3.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 1
+},
+{
+"seed": 263,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)"
+],
+"Q": [
+0.455152
+],
+"cost": 3.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 1
+},
+{
+"seed": 264,
+"answer": "market",
+"grounded_answer": "market",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 265,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.50749,
+0.48874,
+0.35474488
+],
+"cost": 12.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 3
+},
+{
+"seed": 266,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)"
+],
+"Q": [
+0.49956,
+0.47456
+],
+"cost": 9.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 267,
+"answer": "meadow",
+"grounded_answer": "meadow",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"verify()"
+],
+"Q": [
+0.49956,
+0.3833333333,
+0.2009866667,
+0.3033333333
+],
+"cost": 10.5,
+"status": "SUCCESS",
+"llm_calls": 4
+},
+{
+"seed": 268,
+"answer": "granary",
+"grounded_answer": "granary",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.51542,
+0.3916666667
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 269,
+"answer": null,
+"grounded_answer": "cliff reef",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"answer(src=kb5, graded=True)"
+],
+"Q": [
+0.50749,
+0.4365625,
+0.15125
+],
+"cost": 16.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 5
+},
+{
+"seed": 270,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)"
+],
+"Q": [
+0.455152
+],
+"cost": 3.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 1
+},
+{
+"seed": 271,
+"answer": "The vineyard of",
+"grounded_answer": "The vineyard of",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 272,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)"
+],
+"Q": [
+0.455152
+],
+"cost": 3.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 1
+},
+{
+"seed": 273,
+"answer": "Maren island telescope",
+"grounded_answer": "Maren island telescope",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.49956,
+0.3833333333
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 274,
+"answer": null,
+"grounded_answer": "The forge",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.4365625,
+0.3875
+],
+"cost": 13.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 4
+},
+{
+"seed": 275,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb5, graded=True)"
+],
+"Q": [
+0.50749,
+0.48874,
+0.3605
+],
+"cost": 14.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 4
+},
+{
+"seed": 276,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.50749,
+0.48874,
+0.35474488
+],
+"cost": 12.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 3
+},
+{
+"seed": 277,
+"answer": null,
+"grounded_answer": "of Jessamy",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"verify()",
+"answer(src=web, graded=True)",
+"verify()"
+],
+"Q": [
+0.51542,
+0.50292,
+0.3916666667,
+0.2039533333,
+0.3116666667
+],
+"cost": 21.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 6
+},
+{
+"seed": 278,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)"
+],
+"Q": [
+0.455152
+],
+"cost": 3.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 1
+},
+{
+"seed": 279,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb5, graded=True)"
+],
+"Q": [
+0.50749,
+0.48874,
+0.3605
+],
+"cost": 14.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 4
+},
+{
+"seed": 280,
+"answer": null,
+"grounded_answer": "plateau",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875,
+0.21122,
+0.3075
+],
+"cost": 10.5,
+"status": "STALLED",
+"llm_calls": 4
+},
+{
+"seed": 281,
+"answer": null,
+"grounded_answer": "crater granary garden",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875,
+0.21122,
+0.3075
+],
+"cost": 10.5,
+"status": "STALLED",
+"llm_calls": 4
+},
+{
+"seed": 282,
+"answer": "summit harbor",
+"grounded_answer": "summit harbor",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.4837,
+0.375
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 283,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.4837,
+0.2535
+],
+"cost": 6.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 284,
+"answer": null,
+"grounded_answer": "volcano lagoon vineyard",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.455152,
+0.36
+],
+"cost": 5.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 285,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)"
+],
+"Q": [
+0.455152
+],
+"cost": 3.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 1
+},
+{
+"seed": 286,
+"answer": null,
+"grounded_answer": "of Fenwick",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb10, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.48874,
+0.35474488,
+0.3875
+],
+"cost": 14.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 4
+},
+{
+"seed": 287,
+"answer": null,
+"grounded_answer": "cliff",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"answer(src=rw, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875,
+0.21122,
+0.1661208333,
+0.3075
+],
+"cost": 15.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 6
+},
+{
+"seed": 288,
+"answer": null,
+"grounded_answer": "foundry",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.49956,
+0.3833333333,
+0.2009866667
+],
+"cost": 8.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 3
+},
+{
+"seed": 289,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"answer(src=rw, graded=False)"
+],
+"Q": [
+0.50749,
+0.3875,
+0.21122,
+0.1661208333
+],
+"cost": 13.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 5
+},
+{
+"seed": 290,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"answer(src=rw, graded=False)"
+],
+"Q": [
+0.51542,
+0.4560416667,
+0.3916666667,
+0.2214533333,
+0.1779472222
+],
+"cost": 21.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 7
+},
+{
+"seed": 291,
+"answer": "compass foundry",
+"grounded_answer": "compass foundry",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 292,
+"answer": "reef forge island",
+"grounded_answer": "reef forge island",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.49956,
+0.3833333333
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 293,
+"answer": null,
+"grounded_answer": "canyon",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.4837,
+0.2535
+],
+"cost": 6.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 294,
+"answer": "foundry crater reef",
+"grounded_answer": "foundry crater reef",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875,
+0.21122,
+0.3075
+],
+"cost": 10.5,
+"status": "SUCCESS",
+"llm_calls": 4
+},
+{
+"seed": 295,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.4837,
+0.1255
+],
+"cost": 6.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 296,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb5, graded=True)"
+],
+"Q": [
+0.50749,
+0.48874,
+0.3605
+],
+"cost": 14.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 4
+},
+{
+"seed": 297,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb10, graded=False)",
+"answer(src=web, graded=True)"
+],
+"Q": [
+0.51542,
+0.50292,
+0.3626883733,
+0.3495493333
+],
+"cost": 20.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 5
+},
+{
+"seed": 298,
+"answer": "beacon",
+"grounded_answer": "beacon",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"verify()"
+],
+"Q": [
+0.51542,
+0.50292,
+0.3916666667
+],
+"cost": 11.0,
+"status": "SUCCESS",
+"llm_calls": 3
+},
+{
+"seed": 299,
+"answer": "of Norrin",
+"grounded_answer": "of Norrin",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.51542,
+0.3916666667
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 300,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)"
+],
+"Q": [
+0.455152
+],
+"cost": 3.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 1
+},
+{
+"seed": 301,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)"
+],
+"Q": [
+0.49956,
+0.47456
+],
+"cost": 9.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 302,
+"answer": "of Corin",
+"grounded_answer": "of Corin",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.455152,
+0.36
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 303,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb5, graded=True)",
+"answer(src=web, graded=True)"
+],
+"Q": [
+0.51542,
+0.50292,
+0.3723333333,
+0.3598333333
+],
+"cost": 22.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 6
+},
+{
+"seed": 304,
+"answer": "canyon",
+"grounded_answer": "canyon",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"verify()"
+],
+"Q": [
+0.51542,
+0.3916666667,
+0.2214533333,
+0.3116666667
+],
+"cost": 10.5,
+"status": "SUCCESS",
+"llm_calls": 4
+},
+{
+"seed": 305,
+"answer": "vineyard",
+"grounded_answer": "vineyard",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875,
+0.21122,
+0.3075
+],
+"cost": 10.5,
+"status": "SUCCESS",
+"llm_calls": 4
+},
+{
+"seed": 306,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.4837,
+0.1255
+],
+"cost": 6.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 307,
+"answer": "of",
+"grounded_answer": "of",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.49956,
+0.3833333333
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 308,
+"answer": null,
+"grounded_answer": "The telescope of",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.4837,
+0.2535
+],
+"cost": 6.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 309,
+"answer": "of Arvel volcano",
+"grounded_answer": "of Arvel volcano",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"answer(src=rw, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875,
+0.21122,
+0.1661208333,
+0.3075
+],
+"cost": 15.5,
+"status": "SUCCESS",
+"llm_calls": 6
+},
+{
+"seed": 310,
+"answer": "temple",
+"grounded_answer": "temple",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 311,
+"answer": "mill loom",
+"grounded_answer": "mill loom",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 312,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.50749,
+0.48874,
+0.35474488
+],
+"cost": 12.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 3
+},
+{
+"seed": 313,
+"answer": null,
+"grounded_answer": "lagoon quarry granary",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.48874,
+0.3875
+],
+"cost": 11.0,
+"status": "STALLED",
+"llm_calls": 3
+},
+{
+"seed": 314,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"answer(src=kb5, graded=True)"
+],
+"Q": [
+0.50749,
+0.4365625,
+0.15125
+],
+"cost": 16.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 5
+},
+{
+"seed": 315,
+"answer": null,
+"grounded_answer": "of Lorne",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"verify()",
+"answer(src=web, graded=True)",
+"verify()"
+],
+"Q": [
+0.51542,
+0.50292,
+0.3916666667,
+0.2039533333,
+0.3116666667
+],
+"cost": 21.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 6
+},
+{
+"seed": 316,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"answer(src=kb5, graded=True)",
+"answer(src=kb10, graded=True)"
+],
+"Q": [
+0.51542,
+0.4560416667,
+0.3723333333,
+0.3054166667
+],
+"cost": 21.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 7
+},
+{
+"seed": 317,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)"
+],
+"Q": [
+0.455152
+],
+"cost": 3.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 1
+},
+{
+"seed": 318,
+"answer": null,
+"grounded_answer": "of Maren reef",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.4837,
+0.1255
+],
+"cost": 6.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 319,
+"answer": "meadow desert",
+"grounded_answer": "meadow desert",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 320,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"answer(src=kb5, graded=True)"
+],
+"Q": [
+0.50749,
+0.4365625,
+0.15125
+],
+"cost": 16.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 5
+},
+{
+"seed": 321,
+"answer": "compass",
+"grounded_answer": "compass",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.49956,
+0.3833333333
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 322,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"answer(src=kb5, graded=True)"
+],
+"Q": [
+0.50749,
+0.4365625,
+0.15125
+],
+"cost": 16.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 5
+},
+{
+"seed": 323,
+"answer": null,
+"grounded_answer": "The basin",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"answer(src=web, graded=False)",
+"verify()",
+"answer(src=rw, graded=False)",
+"verify()"
+],
+"Q": [
+0.51542,
+0.3916666667,
+0.2214533333,
+0.1994,
+0.3116666667,
+0.1443472222,
+0.2583333333
+],
+"cost": 23.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 8
+},
+{
+"seed": 324,
+"answer": "foundry of Kestrel",
+"grounded_answer": "foundry of Kestrel",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"verify()"
+],
+"Q": [
+0.51542,
+0.50292,
+0.3916666667
+],
+"cost": 11.0,
+"status": "SUCCESS",
+"llm_calls": 3
+},
+{
+"seed": 325,
+"answer": "Hollis anvil",
+"grounded_answer": "Hollis anvil",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.48874,
+0.3875
+],
+"cost": 11.0,
+"status": "SUCCESS",
+"llm_calls": 3
+},
+{
+"seed": 326,
+"answer": "Hollis canal",
+"grounded_answer": "Hollis canal",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.455152,
+0.36
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 327,
+"answer": "of Ivor",
+"grounded_answer": "of Ivor",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 328,
+"answer": "of",
+"grounded_answer": "of",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.455152,
+0.36
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 329,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.4837,
+0.2535
+],
+"cost": 6.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 330,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb5, graded=True)"
+],
+"Q": [
+0.50749,
+0.48874,
+0.3605
+],
+"cost": 14.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 4
+},
+{
+"seed": 331,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"answer(src=kb5, graded=True)"
+],
+"Q": [
+0.50749,
+0.4365625,
+0.15125
+],
+"cost": 16.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 5
+},
+{
+"seed": 332,
+"answer": null,
+"grounded_answer": "desert basin harbor",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.48874,
+0.3875
+],
+"cost": 11.0,
+"status": "STALLED",
+"llm_calls": 3
+},
+{
+"seed": 333,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.49956,
+0.3833333333,
+0.2009866667
+],
+"cost": 8.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 3
+},
+{
+"seed": 334,
+"answer": null,
+"grounded_answer": "basin mill anvil",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875,
+0.21122,
+0.3075
+],
+"cost": 10.5,
+"status": "STALLED",
+"llm_calls": 4
+},
+{
+"seed": 335,
+"answer": "castle",
+"grounded_answer": "castle",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"answer(src=kb5, graded=True)",
+"verify()"
+],
+"Q": [
+0.51542,
+0.4560416667,
+0.3723333333,
+0.3916666667
+],
+"cost": 18.0,
+"status": "SUCCESS",
+"llm_calls": 6
+},
+{
+"seed": 336,
+"answer": "forge vineyard",
+"grounded_answer": "forge vineyard",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.455152,
+0.36
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 337,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.50749,
+0.48874,
+0.35474488
+],
+"cost": 12.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 3
+},
+{
+"seed": 338,
+"answer": "river canal",
+"grounded_answer": "river canal",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 339,
+"answer": "compass island kiln",
+"grounded_answer": "compass island kiln",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.51542,
+0.3916666667
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 340,
+"answer": "Kestrel",
+"grounded_answer": "Kestrel",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.4365625,
+0.3875
+],
+"cost": 13.0,
+"status": "SUCCESS",
+"llm_calls": 4
+},
+{
+"seed": 341,
+"answer": "summit",
+"grounded_answer": "summit",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.51542,
+0.3916666667
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 342,
+"answer": "Fenwick forest kiln",
+"grounded_answer": "Fenwick forest kiln",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"verify()"
+],
+"Q": [
+0.49956,
+0.47456,
+0.3833333333
+],
+"cost": 11.0,
+"status": "SUCCESS",
+"llm_calls": 3
+},
+{
+"seed": 343,
+"answer": null,
+"grounded_answer": "reef",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb10, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.48874,
+0.35474488,
+0.3875
+],
+"cost": 14.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 4
+},
+{
+"seed": 344,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)"
+],
+"Q": [
+0.49956,
+0.4015
+],
+"cost": 9.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 345,
+"answer": "Galen castle glacier",
+"grounded_answer": "Galen castle glacier",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb10, graded=False)",
+"answer(src=web, graded=True)",
+"verify()"
+],
+"Q": [
+0.51542,
+0.50292,
+0.3626883733,
+0.3495493333,
+0.3916666667
+],
+"cost": 22.5,
+"status": "SUCCESS",
+"llm_calls": 6
+},
+{
+"seed": 346,
+"answer": "of Hollis valley",
+"grounded_answer": "of Hollis valley",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.4837,
+0.375
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 347,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"answer(src=kb5, graded=True)"
+],
+"Q": [
+0.50749,
+0.4365625,
+0.15125
+],
+"cost": 16.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 5
+},
+{
+"seed": 348,
+"answer": null,
+"grounded_answer": "beacon. The fjord",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875,
+0.21122,
+0.3075
+],
+"cost": 10.5,
+"status": "STALLED",
+"llm_calls": 4
+},
+{
+"seed": 349,
+"answer": "compass",
+"grounded_answer": "compass",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 350,
+"answer": null,
+"grounded_answer": "castle kiln",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.455152,
+0.36
+],
+"cost": 5.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 351,
+"answer": "of Corin",
+"grounded_answer": "of Corin",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"answer(src=kb5, graded=True)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875,
+0.21122,
+0.4337958333,
+0.3075
+],
+"cost": 15.5,
+"status": "SUCCESS",
+"llm_calls": 6
+},
+{
+"seed": 352,
+"answer": "compass. The fjord",
+"grounded_answer": "compass. The fjord",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"verify()"
+],
+"Q": [
+0.51542,
+0.3916666667,
+0.2214533333,
+0.3116666667
+],
+"cost": 10.5,
+"status": "SUCCESS",
+"llm_calls": 4
+},
+{
+"seed": 353,
+"answer": "of Hollis",
+"grounded_answer": "of Hollis",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 354,
+"answer": null,
+"grounded_answer": "mill",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.4837,
+0.375
+],
+"cost": 5.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 355,
+"answer": "lathe harbor",
+"grounded_answer": "lathe harbor",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.4365625,
+0.3875
+],
+"cost": 13.0,
+"status": "SUCCESS",
+"llm_calls": 4
+},
+{
+"seed": 356,
+"answer": null,
+"grounded_answer": "sextant vineyard quarry",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb5, graded=True)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.48874,
+0.3605,
+0.3875
+],
+"cost": 16.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 5
+},
+{
+"seed": 357,
+"answer": null,
+"grounded_answer": "volcano orchard market",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.4837,
+0.375
+],
+"cost": 5.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 358,
+"answer": "plateau",
+"grounded_answer": "plateau",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"verify()"
+],
+"Q": [
+0.51542,
+0.4560416667,
+0.3916666667
+],
+"cost": 13.0,
+"status": "SUCCESS",
+"llm_calls": 4
+},
+{
+"seed": 359,
+"answer": "compass lantern",
+"grounded_answer": "compass lantern",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"verify()"
+],
+"Q": [
+0.49956,
+0.47456,
+0.3833333333
+],
+"cost": 11.0,
+"status": "SUCCESS",
+"llm_calls": 3
+},
+{
+"seed": 360,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)"
+],
+"Q": [
+0.455152
+],
+"cost": 3.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 1
+},
+{
+"seed": 361,
+"answer": null,
+"grounded_answer": "lantern vineyard",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875,
+0.21122,
+0.3075
+],
+"cost": 10.5,
+"status": "STALLED",
+"llm_calls": 4
+},
+{
+"seed": 362,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)"
+],
+"Q": [
+0.455152
+],
+"cost": 3.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 1
+},
+{
+"seed": 363,
+"answer": "Lorne",
+"grounded_answer": "Lorne",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.51542,
+0.3916666667
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 364,
+"answer": null,
+"grounded_answer": "The prairie",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"verify()"
+],
+"Q": [
+0.49956,
+0.3833333333,
+0.2009866667,
+0.3033333333
+],
+"cost": 10.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 4
+},
+{
+"seed": 365,
+"answer": "crater",
+"grounded_answer": "crater",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875,
+0.21122,
+0.3075
+],
+"cost": 10.5,
+"status": "SUCCESS",
+"llm_calls": 4
+},
+{
+"seed": 366,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"answer(src=kb5, graded=True)"
+],
+"Q": [
+0.50749,
+0.4365625,
+0.15125
+],
+"cost": 16.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 5
+},
+{
+"seed": 367,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.4837,
+0.2535
+],
+"cost": 6.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 368,
+"answer": "granary",
+"grounded_answer": "granary",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"verify()"
+],
+"Q": [
+0.49956,
+0.3833333333,
+0.2009866667,
+0.3033333333
+],
+"cost": 10.5,
+"status": "SUCCESS",
+"llm_calls": 4
+},
+{
+"seed": 369,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"answer(src=kb5, graded=True)",
+"answer(src=kb10, graded=True)"
+],
+"Q": [
+0.51542,
+0.4560416667,
+0.3723333333,
+0.3054166667
+],
+"cost": 21.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 7
+},
+{
+"seed": 370,
+"answer": "loom",
+"grounded_answer": "loom",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.455152,
+0.36
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 371,
+"answer": "castle orchard",
+"grounded_answer": "castle orchard",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.49956,
+0.3833333333
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 372,
+"answer": null,
+"grounded_answer": "cliff chisel. The",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"answer(src=rw, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875,
+0.21122,
+0.1661208333,
+0.3075
+],
+"cost": 15.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 6
+},
+{
+"seed": 373,
+"answer": null,
+"grounded_answer": "of",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.49956,
+0.3833333333,
+0.2009866667
+],
+"cost": 8.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 3
+},
+{
+"seed": 374,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.4837,
+0.1255
+],
+"cost": 6.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 375,
+"answer": null,
+"grounded_answer": "desert",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.48874,
+0.3875
+],
+"cost": 11.0,
+"status": "STALLED",
+"llm_calls": 3
+},
+{
+"seed": 376,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)"
+],
+"Q": [
+0.49956,
+0.47456
+],
+"cost": 9.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 377,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"answer(src=kb5, graded=True)"
+],
+"Q": [
+0.50749,
+0.4365625,
+0.15125
+],
+"cost": 16.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 5
+},
+{
+"seed": 378,
+"answer": "Lorne beacon",
+"grounded_answer": "Lorne beacon",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.51542,
+0.3916666667
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 379,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.50749,
+0.48874,
+0.35474488
+],
+"cost": 12.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 3
+},
+{
+"seed": 380,
+"answer": null,
+"grounded_answer": "desert meadow",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"answer(src=web, graded=False)",
+"verify()",
+"answer(src=rw, graded=False)",
+"verify()"
+],
+"Q": [
+0.51542,
+0.3916666667,
+0.2214533333,
+0.1994,
+0.3116666667,
+0.1443472222,
+0.2583333333
+],
+"cost": 23.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 8
+},
+{
+"seed": 381,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=True)",
+"answer(src=kb5, graded=True)"
+],
+"Q": [
+0.50749,
+0.4365625,
+0.15125
+],
+"cost": 16.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 5
+},
+{
+"seed": 382,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)"
+],
+"Q": [
+0.455152
+],
+"cost": 3.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 1
+},
+{
+"seed": 383,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)"
+],
+"Q": [
+0.455152
+],
+"cost": 3.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 1
+},
+{
+"seed": 384,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb5, graded=True)"
+],
+"Q": [
+0.50749,
+0.48874,
+0.3605
+],
+"cost": 14.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 4
+},
+{
+"seed": 385,
+"answer": null,
+"grounded_answer": "loom granary anvil",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"verify()"
+],
+"Q": [
+0.49956,
+0.47456,
+0.3833333333
+],
+"cost": 11.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 3
+},
+{
+"seed": 386,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)"
+],
+"Q": [
+0.49956,
+0.47456
+],
+"cost": 9.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 387,
+"answer": "orchard",
+"grounded_answer": "orchard",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 388,
+"answer": "of",
+"grounded_answer": "of",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"verify()"
+],
+"Q": [
+0.49956,
+0.4015,
+0.3833333333
+],
+"cost": 11.0,
+"status": "SUCCESS",
+"llm_calls": 3
+},
+{
+"seed": 389,
+"answer": "Galen",
+"grounded_answer": "Galen",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 390,
+"answer": "vineyard",
+"grounded_answer": "vineyard",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.3875
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 391,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb10, graded=False)",
+"answer(src=web, graded=True)"
+],
+"Q": [
+0.51542,
+0.50292,
+0.3626883733,
+0.3495493333
+],
+"cost": 20.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 5
+},
+{
+"seed": 392,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.50749,
+0.48874,
+0.35474488
+],
+"cost": 12.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 3
+},
+{
+"seed": 393,
+"answer": null,
+"grounded_answer": "temple",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=kb10, graded=False)"
+],
+"Q": [
+0.4837,
+0.2535
+],
+"cost": 6.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+},
+{
+"seed": 394,
+"answer": "orchard basin mill",
+"grounded_answer": "orchard basin mill",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"verify()"
+],
+"Q": [
+0.50749,
+0.48874,
+0.3875
+],
+"cost": 11.0,
+"status": "SUCCESS",
+"llm_calls": 3
+},
+{
+"seed": 395,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()",
+"answer(src=kb10, graded=False)",
+"answer(src=kb5, graded=True)"
+],
+"Q": [
+0.50749,
+0.3875,
+0.21122,
+0.4337958333
+],
+"cost": 13.5,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 5
+},
+{
+"seed": 396,
+"answer": "chisel canal",
+"grounded_answer": "chisel canal",
+"trace": [
+"answer(src=kb5, graded=False)",
+"answer(src=web, graded=False)",
+"verify()"
+],
+"Q": [
+0.49956,
+0.47456,
+0.3833333333
+],
+"cost": 11.0,
+"status": "SUCCESS",
+"llm_calls": 3
+},
+{
+"seed": 397,
+"answer": null,
+"grounded_answer": null,
+"trace": [
+"answer(src=kb5, graded=False)"
+],
+"Q": [
+0.455152
+],
+"cost": 3.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 1
+},
+{
+"seed": 398,
+"answer": "The crater",
+"grounded_answer": "The crater",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.455152,
+0.36
+],
+"cost": 5.0,
+"status": "SUCCESS",
+"llm_calls": 2
+},
+{
+"seed": 399,
+"answer": null,
+"grounded_answer": "of Maren sextant",
+"trace": [
+"answer(src=kb5, graded=False)",
+"verify()"
+],
+"Q": [
+0.4837,
+0.375
+],
+"cost": 5.0,
+"status": "BUDGET_EXHAUSTED",
+"llm_calls": 2
+}
+]

@@ -1,0 +1,14 @@
+# FGAO API configuration. Paths are relative to this file.
+llm:
+  provider: openai                         # any OpenAI-compatible endpoint
+  base_url: https://router.huggingface.co/v1
+  model: Qwen/Qwen2.5-7B-Instruct          # any chat model served by Hugging Face Inference Providers
+  api_key_env: HF_TOKEN                    # Space secret
+  temperature: 0
+  max_tokens: 128
+  timeout: 60
+resilience: {attempts: 3, backoff: 0.5, timeout: 60, max_concurrency: 32}
+kb: {type: bm25, path: data/kb.jsonl}      # default corpus; requests may send their own "documents"
+budget: 16
+on_error: record
+server: {max_inflight: 32, max_queue: 256, request_timeout: 300, max_batch: 64, max_documents: 500}
